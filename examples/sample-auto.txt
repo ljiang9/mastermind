@@ -1,0 +1,7 @@
+示例：--auto 对密码 RGBY 的求解过程（Knuth 极小极大）
+$ python3 -m mastermind --code RGBY --auto
+第 1 步：猜 RRBB → 2 黑 0 白
+第 2 步：猜 RBGY → 2 黑 2 白
+第 3 步：猜 RGBY → 4 黑 0 白
+
+✅ 共用 3 步破解密码 RGBY（上限 10 步）
